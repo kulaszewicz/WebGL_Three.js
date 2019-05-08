@@ -1,0 +1,38 @@
+html {
+    font-family: 'Californian FB', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-rendering: optimizeLegibility;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 25px black;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    position: absolute;
+    top: 5em;
+    left: 4em;
+    text-shadow: 3px 3px 25px black;
+    border-bottom: 2px solid black;
+}
+
+#cube {
+    width: auto;
+}
